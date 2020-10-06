@@ -575,7 +575,8 @@
   .daterangepicker.openscenter:before {
     content: none;
   }
-  .modal-open .daterangepicker-header{
+  
+  .daterangepicker-wrapper.open .daterangepicker-header{
     display: block;
     text-align: center;
     padding: 15px;
@@ -584,7 +585,7 @@
     position: relative;
   }
 
-  .daterangepicker-header:before {
+  .daterangepicker-wrapper.open .daterangepicker-header:before {
     content: '';
     position: absolute;
     left: 20px;
