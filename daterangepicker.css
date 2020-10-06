@@ -575,7 +575,7 @@
   .daterangepicker.openscenter:before {
     content: none;
   }
-  
+
   .daterangepicker-wrapper.open .daterangepicker-header{
     display: block;
     text-align: center;
@@ -589,5 +589,17 @@
     content: '';
     position: absolute;
     left: 20px;
+    top: 20px;
+    color: #fff;
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    border-radius: 0;
+    display: inline-block;
+    padding: 6px;
+    transform: rotate(135deg);
+  }
+
+  .daterangepicker-wrapper.open .daterangepicker.openscenter::after{
+    content: none;
   }
 }
