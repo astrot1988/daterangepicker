@@ -585,7 +585,7 @@
   }
 
   .daterangepicker-header:before {
-    content: url('/storage/svgs/blocks/left.svg');
+    content: '';
     position: absolute;
     left: 20px;
   }
